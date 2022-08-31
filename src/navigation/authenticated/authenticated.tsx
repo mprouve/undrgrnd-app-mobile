@@ -17,7 +17,7 @@ import Settings from '../../screens/settings/settings'
 import Notifications from '../../screens/notifications/notifications'
 
 export const AuthenticatedNavigation = (): JSX.Element => {
-  const theme = 'light'
+  const theme = 'dark'
 
   return (
     <AuthenticatedStack.Navigator

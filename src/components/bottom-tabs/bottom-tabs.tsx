@@ -10,7 +10,7 @@ export const BottomTabs = (): JSX.Element | null => {
   const navigation = useNavigation()
   const isAuthenticated = useAppSelector((state) => state.isAuthenticated.value)
   const [currentTab, setCurrentTab] = useState('feed')
-  const theme = 'light'
+  const theme = 'dark'
   const iconColorInactive =
     theme === 'light' ? lightTheme.colors.icons.drawer : darkTheme.colors.icons.drawer
   const iconColorActive = theme === 'light' ? lightTheme.palette.primary : darkTheme.palette.primary

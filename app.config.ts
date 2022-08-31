@@ -57,7 +57,7 @@ const config: ExpoConfig = {
   android: {
     adaptiveIcon: {
       foregroundImage: './assets/images/adaptive-icon.png',
-      backgroundColor: '#FFFFFF'
+      backgroundColor: '#1D1A1F'
     }
   },
   web: {

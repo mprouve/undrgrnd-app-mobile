@@ -20,7 +20,7 @@ import {
 export const Drawer = (props: DrawerContentComponentProps): JSX.Element => {
   const navigation = useNavigation()
   const dispatch = useAppDispatch()
-  const theme = 'light'
+  const theme = 'dark'
 
   return (
     <MainContainer>

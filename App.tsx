@@ -28,7 +28,7 @@ export const App = (): JSX.Element => {
     QuicksandBold: require('./assets/fonts/Quicksand/static/Quicksand-Bold.ttf')
   })
   const [loading, setLoading] = useState(true)
-  const [theme, setTheme] = useState('light')
+  const [theme, setTheme] = useState('dark')
   const selectedTheme = theme === 'dark' ? darkTheme : lightTheme
 
   // Load the app here

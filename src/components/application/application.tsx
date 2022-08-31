@@ -9,7 +9,7 @@ import { lightTheme, darkTheme } from '../../res/theme/theme'
 
 export const Application = (): JSX.Element => {
   const isAuthenticated = useAppSelector((state) => state.isAuthenticated.value)
-  const theme = 'light'
+  const theme = 'dark'
   const selectedTheme = theme === 'light' ? lightTheme : darkTheme
 
   return (
