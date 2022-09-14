@@ -8,7 +8,7 @@ import { navigationRef } from '../../navigation/root/stacks/stacks'
 import { lightTheme, darkTheme } from '../../res/theme/theme'
 
 export const Application = (): JSX.Element => {
-  const isAuthenticated = useAppSelector((state) => state.isAuthenticated.value)
+  const isAuthenticated: boolean = useAppSelector((state) => state.isAuthenticated.value)
   const theme = 'dark'
   const selectedTheme = theme === 'light' ? lightTheme : darkTheme
 

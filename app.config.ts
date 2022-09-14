@@ -42,7 +42,7 @@ const config: ExpoConfig = {
   icon: './assets/images/icon.png',
   userInterfaceStyle: 'light',
   splash: {
-    image: './assets/images/splash.png',
+    image: './assets/images/splash-2.png',
     resizeMode: 'cover',
     backgroundColor: '#1D1A1F'
   },
